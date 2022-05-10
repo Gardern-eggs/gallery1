@@ -1,0 +1,635 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    display: flex;
+}
+h1 h2{
+    font-family: "Big Shoulders Display";
+}
+    body{
+        width: 100vh;
+        height: 100vh;      
+    }
+    .whole{
+        width:100vw;
+        height: 100vh;
+    }
+    .row{
+        overflow: hidden;
+        display: inline-flex;
+    }
+    .start{
+        position: absolute;
+        width: 1275px;
+        height: 800px;
+        left: 0px;
+        top: 0px;    
+    }
+
+    .dark-back{
+        top: 1px;
+        mix-blend-mode:difference;
+        width: 450px;
+        height: 799px;
+        background-color: black;
+        color: white;
+    }
+    h2{
+        flex-wrap: wrap;
+    }
+
+    .mordern{
+        font-size: 65px;
+        font-family: 'Big Shoulders Display';
+        width: 100%;
+        position:absolute;
+        left: 10%;
+        right: -50.89%;
+        top: calc(50% - 176px/2 - 122.5px);
+        line-height: 88px;
+        font-weight: 900px;
+        text-transform: uppercase;
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 540px;
+        height: 800px;
+    }
+    .image1{
+        width: 100%;  
+        height: 100%;
+    }
+    .float-text{
+        width: 33%;
+        position: absolute;
+        height: 160px;
+        left: 72.55%;
+        right: 0%;
+        top: calc(50% - 160px/2 - 130px);
+    }
+    .float-text .intro{
+        display: flex;
+        width: 60%;
+        font-size: 20px;
+        padding-bottom: 20px;
+        font-family: "Sitka Small";
+        justify-content: space-between;
+    }
+    button{
+        background-color: #151515;
+        color: white;
+        width:204px;
+        height: 52px;
+    }
+    .float-button{
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        display: inline-flex;
+        position: absolute;
+        width: 300px;
+        height: 52px;
+        left: 10px;
+        top: 200px;
+    }
+    .float-button .arrow{
+        text-align: center;
+        line-height: 30px;
+        width: 56px;
+        height: 52px;
+        background-color:#D5966C;
+    }
+    .center{
+    width: 1110px;
+    height: 1150px;
+    }
+    .right{
+        width: 350px;
+        height: 280px;
+        justify-content: center;
+    }
+    .your-day{
+        position: absolute;
+    width: 350px;
+    height: 280px;
+    left: 165px;
+    top: 1040px;
+        
+    }
+    .your-day h2{
+        font-weight: 40px;
+        margin: 10% 0%;
+        text-transform: uppercase;
+        font-size: 40px;   
+    }
+    .your-day p{
+        font-size: larger;
+        font-family: "Sitka Small";
+    }
+    .left{
+        width:635px;
+        height: 400px;
+    }
+
+    .image2{
+        position: absolute;
+        width: 635px;
+        height: 400px;
+        left: 640px;
+        top: 980px;}
+    .end{
+        display: flex;
+    }
+    .col{
+        box-sizing: border-box;
+        width:635px;
+        height: 720px;
+        justify-content: space-between;
+    }
+    .col2{
+        width: 40%;
+    }
+    .col2 .top {
+    width: 445px;
+    height: 313px;
+    }
+    .image3{
+        position: absolute;
+        width: 635px;
+        height: 720px;
+        left: 165px;
+        top: 1410px;
+    }
+    .image4{
+        position: absolute;
+        width: 445px;
+        height: 313px;
+        left: 830px;
+        top: 1410px;
+    }
+    .bottom{ 
+        position: absolute;
+        width: 445px;
+        height: 377px;
+        left: 830px;
+        top: 1753px;
+        background-color:black ;
+    }
+    .bottom-font{
+        margin-left: 40px;
+        color: white;
+        position: absolute;
+        width: 350px;
+        height: 120px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 120px/2 - 64px);
+    }
+    .bottom h1 {   
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        text-align: left;
+        font-weight: 900px;
+        font-size: 40px;    
+        text-transform: uppercase;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .excite{
+        margin-left:40px ;
+        width: 350px;
+        position: absolute;
+        height: 96px;
+        left: 0%;
+        right: 0%;
+        top: calc(50% - 96px/2 + 76px);
+    }
+
+    .bottom p{
+        color: white;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: left;  
+    }
+    p{
+        flex-wrap: wrap;
+    }
+
+    footer{
+        width: 1440px;
+        height: 244px;
+        position: absolute;
+        left: 0px;
+        top: 2310px;    
+        background-color: black;
+    }
+    .contact{
+        margin-left: 40px;
+        color: white;
+        display: inline-flex;
+        position: absolute;
+        width: 1110px;
+        height: 68px;
+        left: 15px;
+        top:106px;
+        
+    }
+    .contact h2{
+        width: 250px;
+        height: 47px;
+
+    }
+    #about{
+        width: 500px;
+        height: 47px;
+        margin-left:100px ;
+        line-height: 28px;
+        font-style: normal;
+        font-weight: 300px;
+        font-size: 18px;
+    }
+    .contact-icon{
+        position: relative;
+        left: 1175px;
+        top: 106px;
+        width: 110px;
+        height: 17px;
+    }
+    .contact-icon li{
+        width: 20px;
+        height: 16px;
+        display: inline-flex;  
+        margin: 5px; 
+    }
+    .arrow:hover{
+        background-color: #151515;
+    }
+    .button:hover{
+        background-color: #D5966C;
+    }
+    svg:hover{ 
+        background-color: #D5966C;
+        width: 20px;
+        height: 20px;
+        border-radius: 3px;
+    }
+/* ...........tablet Mode........ */
+@media only screen and (max-width:920px){
+    .whole{
+        width:100vw;
+        height: 100vh;
+    }
+    .image1{
+        content:url("/resources/images/tablet/image-hero.jpg");
+        width: 437px;
+        height: 700px;
+    }
+    .image{
+        width:437px;
+        height: 700px;
+    }
+    .image2{
+        content:url("/resources/images/tablet/image-grid-1@2x.jpg");
+    }
+    .image3{
+        content:url("/resources/images/tablet/image-grid-2@2x.jpg");
+    }
+    .image4{
+        content:url("/resources/images/tablet/image-grid-3.jpg");
+    }
+    .dark-back{
+        mix-blend-mode:hard-light;
+        width: 0px;
+        height: 0%;
+    }.mordern{
+        color: #151515;
+        font-size: 45px;
+        width: 339px;
+        font-family: "Big Shoulders Display";
+        font-weight: 900;
+        position: absolute;
+        left: 389px;
+        height: 130px;
+        top: calc(50% - 130px/2 - 140px);
+        line-height: 65px;
+        font-weight: 900px;
+        text-transform: uppercase;
+        flex-wrap: wrap;
+    }
+    .float-text{
+        width:339px;
+        height: 555px;
+        position: absolute;
+        left: 389px;
+        top: 145px;
+    } 
+    .float-text .intro{
+        width: 345px;
+        height: 112px;
+        font-weight:300px;
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 20px;
+        font-family: "Outfit";
+        justify-content: space-between;
+        position: absolute;
+        top: 221px;
+    }
+    .float-button{
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        color: rgb(42, 33, 33);
+        position: absolute;
+        width: 260px;
+        height: 72px;
+        line-height: 28px;
+        left: 0px;
+        top: 343px;
+    }
+    button{
+        width: 206px;
+        background-color: #151515;
+        color: white;
+    }
+    .center{
+        width: 689px;
+        height: 1131px;
+    }
+    .right{
+        width:223px;
+        height: 229px;
+    }
+    .your-day{
+        width: 223px;
+        height: 135px;
+        position: absolute;
+        left: 50px;
+        top: 796px
+    }
+    .image2{
+        position: absolute;
+        width: 398px;
+        height: 400px;
+        left: 330px;
+        top: 770px;
+    }
+    .image3{
+        position: absolute;
+        width: 398px;
+        height: 720px;
+        left: 39px;
+        top: 1231px;
+    }
+    .image4{
+        position: absolute;
+        width: 280px;
+        height: 313px;
+        left: 448px;
+        top: 1231px;
+    }
+    .bottom{ 
+        position: absolute;
+        width: 280px;
+        height: 396px;
+        left: 448px;
+        top: 1555px;
+        background-color:black ;
+    }
+    .bottom-font{
+        color: white;
+        position: absolute;
+        width: 223px;
+        height: 90px;
+        top: 20px
+    }
+    .bottom h1 {   
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        text-align: left;
+        font-weight: 900px;
+        font-size: 35px;    
+        text-transform: uppercase;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .excite{
+        flex-wrap: wrap;
+        position: absolute;
+        height: 112px;
+        width: 223px;
+        top: calc(50% - 112px/2 + 57px);
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .contact{
+        color: white;
+        width: 689px;
+        height: 104px;
+        font-size: 15px;
+        position: absolute;  
+        top:56px;
+        left: 5px;
+    }
+    .contact h2{
+        width: 180px;
+        line-height: 20px;
+        font-weight: 200px;
+        
+    }
+    #about{
+        width: 281px;
+        height: 104px;
+        position: absolute;
+        left: 100px;
+        font-style: normal;
+        font-weight: 300px;
+        font-size: 16px;
+    }
+    .contact-icon{
+        position: absolute;
+        width: 120px;
+        top: 56px;
+        left: 589px;
+        height: 20px;
+    }
+    .contact-icon li{
+        width: 20px;
+        height: 16px;
+        display: inline-flex;  
+         
+    }
+    footer{
+        width: 768px;
+        height: 216px;
+        position: absolute;
+        top: 2071px;
+        left: 0px;
+    }
+}
+/* .............mobile view.......... */
+@media only screen and (max-width:500px){
+   .image1{      
+    content:url("/resources/images/mobile/image-hero@2x.jpg");
+       width: 375px;
+       height: 240px;
+   }
+   .image2{
+    content:url("/resources/images/mobile/image-grid-1.jpg");
+    width: 343px;
+    height: 320px;
+   }
+   .image3{
+    content:url("/resources/images/mobile/image-grid-2.jpg");
+    width: 343px;
+    height: 480px;
+   }
+   .image4{
+    content:url("/resources/images/mobile/image-grid-3.jpg");
+    width: 343px;
+    height: 200px;
+   }
+    .start{
+        width: 375px;
+        height: 630px;
+    }
+    .image{
+        width: 375px;
+        height: 240px;
+    }
+    .mordern{
+        width: 343px;
+        height: 110px;
+        color: #151515;
+        position: absolute;
+        top:272px;
+        left: 16px;
+    }
+    .float-text{
+        width:349px;
+        height: 112px;
+        position: absolute;
+        left: 0px;
+        top: 414px;
+    } 
+    .float-text .intro{
+        position: relative;
+        color: #151515;
+        width: 343px;
+        height: 112px;
+        top:0px;
+        margin-left: 16px;
+        left: 0px;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .float-button{
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        color: rgb(42, 33, 33);
+        position: absolute;
+        width: 204px;
+        height: 52px;
+        line-height: 28px;
+        left: 16px;
+        top: 160px;
+    }
+    button{
+        width: 206px;
+        background-color: #151515;
+        color: white;
+    }
+    .your-day{
+        width: 343px;
+        height: 223px;
+        position: absolute;
+        top: 320px;
+        left: 16px;
+    }
+    .center{
+        position: absolute;
+        width: 375px;
+        height: 1650px;
+        left: 0px;
+        top: 750px;
+    }
+    .image2{
+        width: 343px;
+        height: 320px;
+        position: absolute;
+        left: 16px;
+        top:0px;
+    }
+    .image3{
+        width: 343px;
+        height: 480px;
+        position: absolute;
+        left: 16px;
+        top: 600px;
+    }
+    
+    .image4{
+        width: 343px;
+        height: 200px;
+        position: absolute;
+        top:1090px;
+        left: 16px;
+
+    }
+    .bottom{
+        width: 343px;
+        height: 293px;
+        position: absolute;
+        top: 1302px;
+        left: 16px;
+    }
+    .bottom-font{
+        position: absolute;
+        top:0px;
+        margin:0px 24px;
+        width: 295px;
+        height: 198px;
+    }
+    .excite{
+        width: 295px;
+        height: 84px;
+        position: absolute;
+        left: -15px;
+
+    }
+    footer{
+        width: 375px;
+        height: 336px;
+        position: absolute;
+        top: 2430px;
+    }
+    .contact{
+        position: absolute;
+        width: 311px;
+        height: 240px;
+        left: 0px;
+        top: 30px;
+    }
+    .contact h2{
+        width: 110px;
+        height: 40px;
+    }
+    #about{
+        width: 311px;
+        height: 140px;
+        flex-wrap: wrap;
+        position: absolute;
+        top:90px;
+        left: -100px;
+        
+    } 
+    .contact-icon{
+        width: 100px;
+        height: 20px;
+        position: absolute;
+        top: 260px;
+        left: 30px;
+    }
